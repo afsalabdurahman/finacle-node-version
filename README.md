@@ -1,5 +1,5 @@
 # Finacle Clone (Node.js Version)
-![Finacle Clone Logo](images/logo.png)
+![Finacle Clone Logo](public/Finacle-clone-1.png)
 
 
 This project is a **Node.js** based clone of **Finacle**, a leading Core Banking Solution (CBS) that helps financial institutions with digital banking functionalities. It provides essential banking operations such as creating deposit accounts, managing customers, and integrating with a SQL database for persistent storage.
