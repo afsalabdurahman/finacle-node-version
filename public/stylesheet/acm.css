@@ -1,0 +1,67 @@
+.row{
+background-color: rgb(18, 94, 34);
+margin: 200px 150px 150px 269px;
+width: 900px;
+height: 620px;
+}
+body{
+    background-color: rgb(73, 173, 126);
+}
+header{
+    margin: 0px 0px;
+    background-color: aliceblue;
+    text-align: center;
+    height: 50px;
+    background-color: rgba(9, 191, 197, 0.521);
+    outline: 20px;
+    outline-style: auto;
+
+}
+.section1{
+   
+    outline: 20px;
+    outline-style: auto;
+    height: 80px;
+}
+.section2{
+    outline: 20px;
+    outline-style: auto;
+    margin-top: 0px;
+    height: 300px;
+    padding-top: 20px;
+   
+}
+aside{
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+.main{
+    position: relative;
+}
+.left{
+    position: absolute;
+    left: 700px;
+    top: 30px;
+}
+.box3{
+    position: relative;
+    height: 202px;
+    background-color:  rgb(18, 94, 34);;
+    
+}
+.child2{
+position: absolute;
+top: 0;
+left: 400px;
+height: 200px;
+
+}
+.spans{
+color: rgb(17, 190, 181);
+font-weight: 500;
+font-size: large;
+font-style: italic;
+font: bolder;
+
+}

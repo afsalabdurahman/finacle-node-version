@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='/stylesheet/acm.css'>
+    <script src='main.js'></script>
+</head>
+<body style="background-color: white;" >
+    <div class="container">
+        <div class="row">
+            <div class="headline">
+                      <div class="headline" > <img src="/image/log.jpg" style="height: 100px; width: 100px; background-color: rgb(3, 56, 3);" alt="" srcset=""><h1 style="text-align: center; padding-top: 10px; margin-top: -87px;">Keral Grama bank <br> केरल का बैंक </h1> 
+    <p></p>
+      <p style="padding-left: 229px; ">A private ownerd bank sponsored by Afsal </p>
+    </div>
+                <header>
+                    <h3 style="letter-spacing: 2px;">Customer Account Maintenance</h3>
+                </header>
+               
+            </div>
+            <section class="section1">
+          
+                <div class="function">
+                    <span>Function </span> <input type="text" style="margin-left: 80px; width: 10px; " value=  "{{responds.functions}}">
+                </div>
+                <form action="/acm2" method="post"  enctype="application/x-www-form-urlencoded" >
+                <diV class="AC">
+                    <span >A/C ID</span> <input type="text" value="{{abc.permentant}}" name="account" style="margin-left: 88px; " onclick="sum()"></form>
+                </diV>
+            </section>
+            <div class="main">
+            <section class="section2" >
+                <p style="margin: 0px;">Customer ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">{{abc.customer_id}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{names}} </p>
+                <p>Scheme Code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="spans">{{abc.schemecode}}</span>  </p>
+                <p>Org Dep/Instl &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">{{abc.amount}}</span></p>
+                <p> A/c. balance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">{{abc.amount}}</span> </p> 
+                <p> Dep Pd (Mths/Days) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">{{aa.dep}}</span></p> 
+                <p> Rate of Int &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">{{aa.int}} </span> </p> 
+            </section >
+            <aside >
+
+                <p>Gl subhead  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span class="spans">{{abc.glsubcode}}</span> </p>
+                <p>constitution &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">001 &nbsp;&nbsp;&nbsp; {{aa.const}} </span></p>
+                <p>Last Ci Tran Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">{{aa.date}} </span></p>
+                <p>Shadow balance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="spans"> 0.00 </span></p>
+                <p>Gl subhead&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span class="spans">{{abc.glsubcode}}</span> </p>
+                <p> Deposit status &nbsp; <input  type="text" style="margin-left: 80px; width: 10px; " value="{{aa.a}}"> Automatic renew</p>
+
+            </aside>
+            <div class="left">
+                <p> Closed ?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="spans"> {{aa.closed}}  </span> </p>
+                <p> Customer New ?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">{{aa.closed}}   </span> </p>
+                <p> Minor A/c ? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="spans">  {{aa.closed}}  </span> </p>
+                
+            </div>
+            </div>
+            <div class="box3">
+                <div class="child1" style="outline: 20px; outline-style: auto; padding-top: 10px;">
+                    <p style="margin: auto;">Freez code</p>
+                    <p>A/c.remarks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{aa.remark}}</p>
+                    <p>Reversed For Close</p>
+                    <p>Value Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{aa.date}}</p>
+                    <p>Maturity Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{aa.date}} </p>
+                </div>
+                <div class="child2">
+                    <p>Repayment A/c ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" value="8961448897"></p>
+                    <p>pand Dr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{aa.closed}} </p>
+                    <p>Staff No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{aa.closed}} </p>
+                    <p>Collect Misr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{aa.closed}} </p>
+                </div>
+ <div class="col-md-9" style="margin-left: -1pxpx; background-color:  rgb(255, 255, 255); width: 902px;  "  id="mem" >  Menu option <input id="menus" type="text" class="search" name="menu" onchange="search(this.value)"  /> &nbsp;&nbsp; Screen lock &nbsp;&nbsp; accept &nbsp;&nbsp; commit&nbsp;&nbsp;background&nbsp;&nbsp;profit&nbsp;&nbsp;netBanking&nbsp;&nbsp;list&nbsp;&nbsp;automation</div>
+
+            </div>
+            
+        </div>
+    </div>
+    <script>
+
+   function sum(){
+alert("clicked")
+    }
+    </script>
+ 
+</body>
+</html>
